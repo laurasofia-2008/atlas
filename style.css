@@ -1,4 +1,4 @@
-/* --- ESTILOS BASE --- */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.imagenono{
+.imagen1{
     margin : 20px 20px 0 150px;
     width: 120px;
     background-size: cover;
@@ -43,7 +43,7 @@ header p{
     margin: 35px 0 0 150px;
     font-size: 20px;
 }
-.primero{
+.boton{
     background-color: #5ae096;
     color: rgb(36, 39, 56);
     padding: 10px 20px;
@@ -100,7 +100,7 @@ header p{
     cursor: pointer;   
     margin: 20px 0 0 10px; 
 }
-.imagenonoo {
+.imagen2 {
     width: 400px;
     max-width: 45%;
 }
@@ -235,12 +235,6 @@ header p{
 span{
     font-size: 60px;
 }
-
-/* ===============================
-   RESPONSIVE DESIGN
-================================ */
-
-/* --- Móviles pequeños --- */
 @media (max-width: 480px) {
     header {
         background-attachment: scroll;
@@ -255,7 +249,7 @@ span{
         margin-left: 0;
         font-size: 14px;
     }
-    .imagenono {
+    .imagen1 {
         margin: 0;
         width: 90px;
     }
@@ -269,7 +263,7 @@ span{
         text-align: center;
         max-width: 90%;
     }
-    .primero {
+    .boton {
         margin: 20px auto;
         display: block;
     }
@@ -289,7 +283,7 @@ span{
         text-align: center;
         gap: 20px;
     }
-    .imagenonoo {
+    .imagen {
         max-width: 100%;
     }
     .contenedor3 {
@@ -319,8 +313,6 @@ span{
         gap: 20px;
     }
 }
-
-/* --- Tablets --- */
 @media (min-width: 481px) and (max-width: 768px) {
     header p {
         margin-left: auto;
@@ -337,7 +329,7 @@ span{
         max-width: 80%;
         margin: 0 auto;
     }
-    .primero {
+    .boton {
         margin: 20px auto;
         display: block;
     }
